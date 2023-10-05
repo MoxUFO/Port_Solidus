@@ -1,8 +1,8 @@
-
+import PortfolioContainer from "./componenets/PortfolioContainer";
 
 function App() {
   return (
-  <>fdzgnxfhgnfhn</>
+  <PortfolioContainer />
   );
 }
 
