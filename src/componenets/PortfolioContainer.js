@@ -1,10 +1,12 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 
 export default function PortfolioContainer() {
   return (
-    <body>
+    <div>
         
-    </body>
+        <NavBar />
+    </div>
   )
 }
