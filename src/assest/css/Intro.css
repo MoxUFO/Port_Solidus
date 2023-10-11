@@ -1,0 +1,16 @@
+.intro-bg{
+    margin: 0 auto ;
+  background-color: #201D20;
+  width: 75%;
+  height: 90vh;
+}
+.intro-img{
+    background-image: url('../images/artbreeder-pattern.jpg'); 
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
