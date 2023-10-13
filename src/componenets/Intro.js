@@ -1,4 +1,5 @@
 import React from 'react'
+import IntroButtons from './IntroButtons'
 import '../assest/css/Intro.css'
 
 export default function Intro() {
@@ -10,6 +11,7 @@ export default function Intro() {
             <h1>DEVELOPER</h1>
         </div>
         <h3>Welcome to my projects portfolio!</h3>
+        <IntroButtons />
     </div>
   )
 }
