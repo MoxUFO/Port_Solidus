@@ -1,0 +1,9 @@
+.ikigai{
+    margin-top: 1%;
+    margin: 0 auto;
+    background-image: url('../images/artbreeder-pattern.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 95%;
+    height: 90vh;
+}
