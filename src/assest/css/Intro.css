@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+
 .intro-card{
     margin: 10% auto;
     width: 80%;
@@ -5,7 +7,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: aliceblue;
+    color: #77835D;
+    text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
     position: relative; /* Make the content relative to position it over the background */
     z-index: 1; 
+}
+
+.role h1{
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 700%;
+    font-weight: 'lighter';
+    color: #77835D ;
+    text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
 }

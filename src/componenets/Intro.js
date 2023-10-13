@@ -5,7 +5,7 @@ export default function Intro() {
   return (
     <div className='intro-card'>
         <h2>NELSON FOSTER JR</h2>
-        <div>
+        <div className='role'>
             <h1>FULL STACK</h1>
             <h1>DEVELOPER</h1>
         </div>
