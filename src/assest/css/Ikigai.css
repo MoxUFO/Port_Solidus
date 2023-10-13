@@ -1,9 +1,11 @@
 .ikigai{
-    margin-top: 1%;
-    margin: 0 auto;
-    background-image: url('../images/artbreeder-pattern.jpg'); 
+    position: fixed; /* Make the background fixed */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire viewport width */
+    height: 90vh; /* Cover the entire viewport height */
+    background-image: url('../images/artbreeder-pattern.jpg'); /* Set your background image */
     background-size: cover;
     background-position: center;
-    width: 95%;
-    height: 90vh;
+    z-index: -1; /* Place it behind the content */
 }

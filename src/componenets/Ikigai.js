@@ -1,10 +1,9 @@
 import React from 'react'
 import '../assest/css/Ikigai.css'
 
-export default function 
-() {
+export default function Ikigai() {
   return (
-    <div className='ikigai'>
+    <div className='ikigai '>
 
     </div>
   )

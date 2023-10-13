@@ -1,5 +1,8 @@
 .port-container{
+    position: relative;
+    overflow: hidden;
     background-color: #201D20;
     width: 100%;
     height: 6000px;
+    z-index: -2;
 }

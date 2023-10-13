@@ -1,0 +1,11 @@
+.intro-card{
+    margin: 10% auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: relative; /* Make the content relative to position it over the background */
+    z-index: 1; 
+}
