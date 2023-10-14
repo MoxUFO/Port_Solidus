@@ -1,6 +1,9 @@
 import React from 'react'
 import '../assest/css/ProjectContainer.css'
 import Projects from './Projects'
+import Rave from '../assest/images/Rave.png'
+import BcCon from '../assest/images/BootCamp-Connect.png'
+import Wether from '../assest/images/wether.png'
 
 
 export default function ProjectContainer() {
@@ -12,7 +15,7 @@ export default function ProjectContainer() {
       live: "https://bootcamp-connect-5.herokuapp.com/",
       tools:"HandleBar.js, Bootstrap, JavaScript, Node.js, Express.js, MySQL",
       repo: "https://github.com/Trengland/Bootcamp-Connect",
-      // img: BcCon
+      img: BcCon
     },
     {
       title: "Rave Reviews",
@@ -20,7 +23,7 @@ export default function ProjectContainer() {
       tools:"HTML, CSS, JavasCript, webAPI ",
       live: "https://moxufo.github.io/Rave-Reviews/",
       repo: "https://github.com/MoxUFO/Rave-Reviews",
-      // img: Rave
+      img: Rave
     },
     {
       title: "Yo what's the wheather like",
@@ -28,7 +31,7 @@ export default function ProjectContainer() {
       tools:"HTML, Bootstrap, CSS,JavaScript, OpenWetherAPI",
       live: "https://moxufo.github.io/yo-whats--the-weather-like/",
       repo: "https://github.com/MoxUFO/yo-whats--the-weather-like",
-      // img: Wether
+      img: Wether
     },
    
   ]

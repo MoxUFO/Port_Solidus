@@ -1,33 +1,15 @@
-.try{
-    margin-top: 50px;
-    height: 25%;
-}
-.title{
-    margin: 0 auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
  .projects{
 text-align: center;
+padding-bottom: 400px;
  }
-.this{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    align-items: center;
-
-}
-
-.img{
-    background-color: aqua;
-    height: 70%;
-    width: 40%;
-    position: relative;
-    left: -50px;
-    /* overflow: visible; */
-    background-image: url('../images/artbreeder-pattern.jpg');
-    background-size: cover;
-    background-position: left center;
-}
-
-.content{
-    width: 60%;
-}
+ .title{
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 350%;
+    margin-bottom: 100px;
+    color: #77835D;
+    text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
+    border-bottom: 3px #353D29 solid;
+ }
