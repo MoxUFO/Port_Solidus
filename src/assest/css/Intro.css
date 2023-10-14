@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
 .intro-card{
-    margin: 10% auto;
+    margin: 0 auto;
     width: 80%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

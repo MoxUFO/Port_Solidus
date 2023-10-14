@@ -1,8 +1,9 @@
 .port-container{
-    position: relative;
-    overflow: hidden;
-    background-color: #201D20;
-    width: 100%;
-    height: 6000px;
-    z-index: -2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    background-image: url('../images/artbreeder-pattern.jpg'); /* Set your background image */
+ 
 }
