@@ -13,7 +13,7 @@ export default function NavBar() {
     }
 
   return (
-    <Paper elevation={3}  sx={{height: '10%' ,width: '100%', position: 'fixed', bottom: 0, left: 0, right: 0 }} color="primary" >
+    <Paper elevation={3}  sx={{height: '12%' ,width: '100%', position: 'fixed', bottom: 0, left: 0, right: 0 }} color="primary" >
       <BottomNavigation  sx={{ backgroundColor: "#201D20", height: '100%'  }} showLabels>
         <BottomNavigationAction sx={styles} label="Projects" icon={<AccountTreeRoundedIcon sx={styles} fontSize="large" />} />
         <BottomNavigationAction sx={styles} label="About Me" icon={<PersonSearchRoundedIcon sx={styles} fontSize="large" />} />
