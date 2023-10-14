@@ -1,9 +1,71 @@
-.about-me-containter{
-    margin: 0 auto;
-    border: 2px red solid;
-    width: 80%;
-    height: 85vh;
-
- 
-    
+.about-me-containter {
+  margin: 0 auto;
+  border: 2px red solid;
+  width: 80%;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+}
+.bio {
+  background-color: #201d20;
+  border-radius: 25px;
+  height: 100%;
+  width: 35%;
+  border: 1px blue solid;
+}
+.skills {
+  height: 100%;
+  width: 65%;
+  border: 1px green solid;
+}
+.skills-header {
+    margin: 0;
+    height: 10%;
+  text-align: center;
+  color: #77835d;
+  text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
+    1px 1px 0 #353d29;
+}
+.skills-header h3 {
+ margin: 0;
+}
+.skills-icons {
+  background-color: #201d20;
+  border-radius: 25px;
+  height: 90%;
+  width: 100%;
+}
+.bio-img-holder {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border: 1px yellow solid;
+}
+.bio-img {
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 3px solid #353d29;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/link.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bio-text {
+  /* box-sizing: border-box; */
+  max-width: fit-content;
+  text-align: center;
+  padding: 5%;
+  color: #77835d;
+  width: 100%;
+  height: 40%;
+  border: 1px pink solid;
+}
+.bio-edu {
+  text-align: center;
+  color: #77835d;
+  width: 100%;
+  height: 14%;
+  border: 1px aqua solid;
 }
