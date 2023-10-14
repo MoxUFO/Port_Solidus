@@ -14,7 +14,7 @@ export default function Projects({projects}) {
 				<div class="blog-slider__title">{project.title}</div>
                 <span class="blog-slider__code">Skills Used: {project.tools}</span>
 				<div class="blog-slider__text">{project.description}</div>
-				<a href="https://github.com/Trengland/Bootcamp-Connect" class="blog-slider__button">Repository</a>
+				<a href={project.repo} class="blog-slider__button">Repository</a>
                 <a href={project.live} class="blog-slider__button">Live site</a>
                   </div>
               </div>
