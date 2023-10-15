@@ -55,7 +55,7 @@
 .bio-text {
   /* box-sizing: border-box; */
   max-width: fit-content;
-  text-align: center;
+  text-align: justify;
   padding: 5%;
   color: #77835d;
   width: 100%;
