@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Port_Solidus/static/css/main.0e7ea7d6.css",
+    "main.css": "/Port_Solidus/static/css/main.36e4c750.css",
     "main.js": "/Port_Solidus/static/js/main.f1a9c160.js",
     "static/js/787.55610a69.chunk.js": "/Port_Solidus/static/js/787.55610a69.chunk.js",
     "static/media/BootCamp-Connect.png": "/Port_Solidus/static/media/BootCamp-Connect.d8ae9ca6d3954a3d69bd.png",
@@ -9,12 +9,12 @@
     "static/media/wether.png": "/Port_Solidus/static/media/wether.d5db69faadd4e3bf8928.png",
     "static/media/link.jpg": "/Port_Solidus/static/media/link.c8e61954eabb481c7196.jpg",
     "index.html": "/Port_Solidus/index.html",
-    "main.0e7ea7d6.css.map": "/Port_Solidus/static/css/main.0e7ea7d6.css.map",
+    "main.36e4c750.css.map": "/Port_Solidus/static/css/main.36e4c750.css.map",
     "main.f1a9c160.js.map": "/Port_Solidus/static/js/main.f1a9c160.js.map",
     "787.55610a69.chunk.js.map": "/Port_Solidus/static/js/787.55610a69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e7ea7d6.css",
+    "static/css/main.36e4c750.css",
     "static/js/main.f1a9c160.js"
   ]
 }
