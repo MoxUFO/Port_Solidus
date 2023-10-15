@@ -1,24 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
-.intro-card{
-    margin: 0 auto;
-    width: 80%;
-    height: 90vh;
+.intro-containter {
+  margin: 0 auto;
+  border: 2px red solid;
+  height: 85vh;
+  width: 70%;
+}
+.intro-text {
+  border: 1px blue solid;
+  height: 60%;
+  text-align: center;
+  color: #77835d;
+  text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
+    1px 1px 0 #353d29;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    color: #77835D;
-    text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
-    position: relative; /* Make the content relative to position it over the background */
-    z-index: 1; 
-}
 
+}
+.intro-btns {
+  border: 1px green solid;
+  height: 39.5%;
+}
 .role h1{
+    flex: 0 2 100px ;
     margin: 0;
     font-family: 'Cormorant Infant', serif;
-    font-size: 700%;
+    font-size: 5.0vw;
     font-weight: 'lighter';
-    color: #77835D ;
-    text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
+
+}
+
+@media screen and (max-width: 480px) {
+  .intro-containter {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px red solid;
+    height: 85vh;
+    width: 98%;
+  }
+  .intro-text h2 {
+    border: 1px blue solid;
+  
+  }
+  
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+@media screen and (min-width: 992px) and (max-width: 1199x) {
+  
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  
+}
+@media screen and (min-width: 1920px) {
+  
 }
