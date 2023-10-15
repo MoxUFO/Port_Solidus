@@ -40,10 +40,15 @@
     width: 98%;
   }
   .intro-text h2 {
-    border: 1px blue solid;
-  
+    font-size: 9.0vw;
   }
-  
+  .role h1{
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 15.0vw;
+   
+
+}
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   
