@@ -1,5 +1,6 @@
 {
   "name": "port_solidus",
+  "homepage": "http://MoxUFO.github.io/Port_Solidus",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
