@@ -102,9 +102,10 @@
 	font-weight: 500;
 	justify-content: center;
 	text-align: center;
-	letter-spacing: 1px;
+	/* letter-spacing: 1px; */
 	@media screen and (max-width: 576px){
-		width: 100%;
+		margin-bottom: 10px;
+		width: 50%;
 	}
 }
 

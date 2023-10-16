@@ -40,27 +40,92 @@
     width: 98%;
   }
   .intro-text h2 {
-    font-size: 9.0vw;
+    font-size: 8.0vw;
   }
   .role h1{
     margin: 0;
     font-family: 'Cormorant Infant', serif;
-    font-size: 15.0vw;
+    font-size: 14.5vw;
    
 
 }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
-  
+  .intro-containter {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px red solid;
+    height: 87vh;
+    width: 98%;
+  }
+  .intro-text h2 {
+    font-size:5.0vw;
+  }
+  .role h1{
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 12.0vw;
+   
+
+}
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  
+  .intro-containter {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px red solid;
+    height: 87vh;
+    width: 85%;
+  }
+  .intro-text h2 {
+    font-size:3.5vw;
+  }
+  .role h1{
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 10.0vw;
+   
+
 }
-@media screen and (min-width: 992px) and (max-width: 1199x) {
-  
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .intro-containter {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px yellow solid;
+    height: 87vh;
+    width: 85%;
+  }
+  .intro-text h2 {
+    font-size:3.0vw;
+  }
+  .role h1{
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 8.0vw;
+   
+
+}
+
 }
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
-  
+  .intro-containter {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 2px yellow solid;
+    height: 87vh;
+    width: 85%;
+  }
+  .intro-text h2 {
+    font-size:2.5vw;
+  }
+  .role h1{
+    margin: 0;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 6.5vw;
+   
+
+}
 }
 @media screen and (min-width: 1920px) {
   
