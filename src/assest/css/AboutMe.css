@@ -96,3 +96,138 @@
   height: 14%;
   border: 1px aqua solid;
 }
+@media screen and (max-width: 480px) {
+  .about-me-containter {
+    height:auto;
+    width: 100%;
+  }
+  .about-title{
+ 
+      margin-bottom: 10px;
+
+  }
+  .bio-content{
+
+    flex-direction: column-reverse;
+  
+  }
+  .bio {
+    /* background-color: #201d20; */
+    margin-top: 3%;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+ 
+    border: 1px blue solid;
+  }
+  .bio-text {
+ 
+    /* box-sizing: border-box; */
+
+    /* border-radius: 0; */
+ 
+    font-size: 4.25vw;
+    width: 100%;
+ 
+  }
+  .skills {
+    /* margin: 0 auto; */
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #201d20;
+    border: 1px green solid;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .about-me-containter {
+    height:auto;
+    width: 100%;
+  }
+  .about-title{
+ 
+      margin-bottom: 10px;
+
+  }
+  .bio-content{
+
+    flex-direction: column-reverse;
+  
+  }
+  .bio {
+    /* background-color: #201d20; */
+    margin-top: 3%;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+ 
+    border: 1px blue solid;
+  }
+  .bio-text {
+ 
+    /* box-sizing: border-box; */
+
+    /* border-radius: 0; */
+ 
+ 
+    width: 80%;
+ 
+  }
+  .skills {
+    /* margin: 0 auto; */
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #201d20;
+    border: 1px green solid;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .about-me-containter {
+    height:auto;
+    width: 97%;
+  }
+  .bio-content{
+
+    flex-direction: column-reverse;
+  
+  }
+  .bio {
+    width: 100%;
+    /* background-color: #201d20; */
+display: flex;
+flex-direction: row;
+  }
+  .bio-img-holder {
+    margin: auto auto;
+    width: 200px;
+    height: 200px;
+    border: 1px yellow solid;
+  }
+  .bio-text {
+    height: auto;
+    width: 60%;
+    padding: 4%;
+
+  }
+  .skills {
+
+    width: 95%;
+
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-me-containter {
+    height:auto;
+    width: 97%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  .about-me-containter {
+    height:auto;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  
+}
