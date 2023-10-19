@@ -2,10 +2,11 @@ import React from "react";
 import "../assest/css/Projects.css";
 
 export default function Projects({ projects }) {
+  
   return (
     <div>
       {projects.map((project, index) => (
-        <div className="blog-slider">
+        <div key={index} className="blog-slider">
           <div className="blog-slider__item ">
             <div className="blog-slider__img">
               <img src={project.img} alt="" />
@@ -17,10 +18,10 @@ export default function Projects({ projects }) {
               </span>
               <div className="blog-slider__text">{project.description}</div>
               <div className="blog-slider__button-container" >
-              <a href={project.repo} class="blog-slider__button">
+              <a href={project.repo} className="blog-slider__button">
                 Repository
               </a>
-              <a href={project.live} class="blog-slider__button">
+              <a href={project.live} className="blog-slider__button">
                 Live site
               </a>
               </div>
