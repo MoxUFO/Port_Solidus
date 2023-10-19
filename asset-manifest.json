@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/Port_Solidus/static/css/main.6574d749.css",
-    "main.js": "/Port_Solidus/static/js/main.faba6d02.js",
+    "main.css": "/Port_Solidus/static/css/main.0b4a1b6c.css",
+    "main.js": "/Port_Solidus/static/js/main.1aa6a2bf.js",
     "static/js/787.55610a69.chunk.js": "/Port_Solidus/static/js/787.55610a69.chunk.js",
     "static/media/BootCamp-Connect.png": "/Port_Solidus/static/media/BootCamp-Connect.d8ae9ca6d3954a3d69bd.png",
     "static/media/Rave.png": "/Port_Solidus/static/media/Rave.e663542d80ebe2704e6d.png",
     "static/media/artbreeder-pattern.jpg": "/Port_Solidus/static/media/artbreeder-pattern.5cd074d8e7cbe18654f6.jpg",
     "static/media/wether.png": "/Port_Solidus/static/media/wether.d5db69faadd4e3bf8928.png",
     "static/media/link.jpg": "/Port_Solidus/static/media/link.c8e61954eabb481c7196.jpg",
+    "static/media/mongodb.svg": "/Port_Solidus/static/media/mongodb.b14f79af406efe26fd9d003192f7fbd0.svg",
+    "static/media/handlebars.svg": "/Port_Solidus/static/media/handlebars.6fc718cf5ab391c1970168948fa494fd.svg",
+    "static/media/jquery.svg": "/Port_Solidus/static/media/jquery.a130a55c36943a44f7c517b8ab2de458.svg",
+    "static/media/mysql.svg": "/Port_Solidus/static/media/mysql.7a15f5952d14b7868e26aab899785e02.svg",
+    "static/media/react.svg": "/Port_Solidus/static/media/react.9e9c78facb4ac0be2d2880a01982757a.svg",
+    "static/media/node.svg": "/Port_Solidus/static/media/node.ca7d509723af4bcecb79debeba809532.svg",
+    "static/media/javascript.svg": "/Port_Solidus/static/media/javascript.de2fb4a500dc281f82ff360eaa430d2a.svg",
+    "static/media/express.svg": "/Port_Solidus/static/media/express.415f9b1f32da3ccac61b1658edfc01fe.svg",
+    "static/media/github.svg": "/Port_Solidus/static/media/github.4336ebd4c97bfade2caadc792dcad1d0.svg",
+    "static/media/html.svg": "/Port_Solidus/static/media/html.755924a9bc7bb0f286f86deb01b4a7a0.svg",
     "index.html": "/Port_Solidus/index.html",
-    "main.6574d749.css.map": "/Port_Solidus/static/css/main.6574d749.css.map",
-    "main.faba6d02.js.map": "/Port_Solidus/static/js/main.faba6d02.js.map",
+    "static/media/css.svg": "/Port_Solidus/static/media/css.38311cee61eec4a45b010987be1ab656.svg",
+    "static/media/material-ui-1.svg": "/Port_Solidus/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
+    "main.0b4a1b6c.css.map": "/Port_Solidus/static/css/main.0b4a1b6c.css.map",
+    "main.1aa6a2bf.js.map": "/Port_Solidus/static/js/main.1aa6a2bf.js.map",
     "787.55610a69.chunk.js.map": "/Port_Solidus/static/js/787.55610a69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6574d749.css",
-    "static/js/main.faba6d02.js"
+    "static/css/main.0b4a1b6c.css",
+    "static/js/main.1aa6a2bf.js"
   ]
 }
