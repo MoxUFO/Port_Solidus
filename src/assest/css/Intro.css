@@ -8,7 +8,7 @@
 }
 .intro-text {
   border: 1px blue solid;
-  height: 60%;
+  height: 75%;
   text-align: center;
   color: #77835d;
   text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
@@ -20,7 +20,7 @@
 }
 .intro-btns {
   border: 1px green solid;
-  height: 39.5%;
+  height: 24%;
 }
 .role h1{
     flex: 0 2 100px ;

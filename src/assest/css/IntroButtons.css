@@ -5,9 +5,9 @@
     margin-top: 50px;
 }
 .intro-btn{
-   padding: 25px 0 ;
-   width: 150px;
-   /* color: #201d20; */
+   padding: 1%;
+
+   color: #201d20;
    background-color: #201d20;
    /* text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29; */
 }
