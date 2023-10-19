@@ -8,14 +8,23 @@ export default function IntroButtons() {
       backgroundColor: "#201d20",
       color: "#77835d",
       fontSize: "16px",
-      fontWeight: 'bold'
+      fontWeight: "bold",
     },
   };
 
   return (
     <div className="btn-div">
       <Button
-      href="https://github.com/MoxUFO/Port_Solidus"
+      href="https://1drv.ms/w/c/053372b4ea429ded/Qe2dQuq0cjMggAW9AAAAAAAAp7uUE10mLDSy_Q"
+        className="intro-btn"
+        sx={styles}
+        color="inherit"
+        variant="contained"
+      >
+        My Resume
+      </Button>
+      <Button
+        href="https://github.com/MoxUFO/Port_Solidus"
         className="intro-btn"
         sx={styles}
         color="inherit"
@@ -24,7 +33,6 @@ export default function IntroButtons() {
         {" "}
         Portfolio Source Code
       </Button>
-      {/* <Button className='intro-btn'sx={styles} color='inherit' variant="contained" >My GitHub</Button> */}
     </div>
   );
 }
