@@ -39,7 +39,7 @@ export default function ProjectContainer() {
  
   return (
     <div className='projects'>
-      <h1 className='title'>Projects</h1>
+      <h1 className='title' id='Projects'>Projects</h1>
       <div className='project-cards'>
       <Projects projects={projectArr} />
       </div>

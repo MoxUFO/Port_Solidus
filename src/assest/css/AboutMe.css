@@ -1,6 +1,6 @@
 .about-me-containter {
   margin: 0 auto;
-  border: 2px red solid;
+  /* border: 2px red solid; */
   width: 80%;
   /* height: 2000px; */
   display: flex;
@@ -29,7 +29,7 @@
   border-radius: 25px;
   height: 100%;
   width: 30%;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
 }
 .skills {
   margin: 0 auto;
@@ -37,7 +37,7 @@
   width: 65%;
   border-radius: 25px;
   background-color: #201d20;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   display: flex;
   flex-direction: column;
   
@@ -82,7 +82,7 @@ flex-direction: column;
   margin: 0 auto;
   width: 200px;
   height: 200px;
-  border: 1px yellow solid;
+  /* border: 1px yellow solid; */
 }
 .bio-img {
   box-sizing: border-box;
@@ -106,7 +106,7 @@ flex-direction: column;
   color: #77835d;
   width: 80%;
   /* height: 75%; */
-  border: 1px pink solid;
+  /* border: 1px pink solid; */
 }
 
 .bio-edu {
@@ -114,7 +114,7 @@ flex-direction: column;
   color: #77835d;
   width: 100%;
   height: 14%;
-  border: 1px aqua solid;
+  /* border: 1px aqua solid; */
 }
 @media screen and (max-width: 480px) {
   .about-me-containter {
@@ -134,7 +134,7 @@ flex-direction: column;
     height: 100%;
     width: 100%;
 
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
   }
   .bio-text {
     /* box-sizing: border-box; */
@@ -150,7 +150,7 @@ flex-direction: column;
     width: 100%;
     border-radius: 25px;
     background-color: #201d20;
-    border: 1px green solid;
+    /* border: 1px green solid; */
   }
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -171,7 +171,7 @@ flex-direction: column;
     height: 100%;
     width: 100%;
 
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
   }
   .bio-text {
     /* box-sizing: border-box; */
@@ -186,7 +186,7 @@ flex-direction: column;
     width: 100%;
     border-radius: 25px;
     background-color: #201d20;
-    border: 1px green solid;
+    /* border: 1px green solid; */
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -207,7 +207,7 @@ flex-direction: column;
     margin: auto auto;
     width: 200px;
     height: 200px;
-    border: 1px yellow solid;
+    /* border: 1px yellow solid; */
   }
   .bio-text {
     height: auto;

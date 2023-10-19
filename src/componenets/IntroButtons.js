@@ -9,6 +9,7 @@ export default function IntroButtons() {
       color: "#77835d",
       fontSize: "16px",
       fontWeight: "bold",
+      border: "2px solid  #353D29",
     },
   };
 

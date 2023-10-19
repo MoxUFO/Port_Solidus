@@ -9,14 +9,14 @@ import ConnectWithoutContactRoundedIcon from '@mui/icons-material/ConnectWithout
 export default function NavBar() {
     
     let styles = {
-        color:"#96A27C",
+        color:"#77835D",
     }
 
   return (
     <Paper elevation={3}  sx={{height: '12%' ,width: '100%', position: 'fixed', bottom: 0, left: 0, right: 0 }} color="primary" >
       <BottomNavigation  sx={{ backgroundColor: "#201D20", height: '100%'  }} showLabels>
-        <BottomNavigationAction sx={styles} label="Projects" icon={<AccountTreeRoundedIcon sx={styles} fontSize="large" />} />
-        <BottomNavigationAction sx={styles} label="About Me" icon={<PersonSearchRoundedIcon sx={styles} fontSize="large" />} />
+        <BottomNavigationAction href="#Projects" sx={styles} label="Projects" icon={<AccountTreeRoundedIcon sx={styles} fontSize="large" />} />
+        <BottomNavigationAction href="#About-Me" sx={styles} label="About Me" icon={<PersonSearchRoundedIcon sx={styles} fontSize="large" />} />
         <BottomNavigationAction sx={styles} label="Contact Me" icon={<ConnectWithoutContactRoundedIcon sx={styles} fontSize="large" />} />
       </BottomNavigation>
     </Paper>

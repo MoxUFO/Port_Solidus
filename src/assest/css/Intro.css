@@ -2,12 +2,12 @@
 
 .intro-containter {
   margin: 0 auto;
-  border: 2px red solid;
+  /* border: 2px red solid; */
   height: 85vh;
   width: 70%;
 }
 .intro-text {
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   height: 75%;
   text-align: center;
   color: #77835d;
@@ -19,7 +19,7 @@
 
 }
 .intro-btns {
-  border: 1px green solid;
+  /* border: 1px green solid; */
   height: 24%;
 }
 .role h1{
@@ -35,7 +35,7 @@
   .intro-containter {
     box-sizing: border-box;
     margin: 0 auto;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 87vh;
     width: 98%;
   }
@@ -54,7 +54,7 @@
   .intro-containter {
     box-sizing: border-box;
     margin: 0 auto;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 87vh;
     width: 98%;
   }
@@ -73,7 +73,7 @@
   .intro-containter {
     box-sizing: border-box;
     margin: 0 auto;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 87vh;
     width: 85%;
   }
@@ -92,7 +92,7 @@
   .intro-containter {
     box-sizing: border-box;
     margin: 0 auto;
-    border: 2px yellow solid;
+    /* border: 2px yellow solid; */
     height: 87vh;
     width: 85%;
   }
@@ -112,7 +112,7 @@
   .intro-containter {
     box-sizing: border-box;
     margin: 0 auto;
-    border: 2px yellow solid;
+    /* border: 2px yellow solid; */
     height: 87vh;
     width: 85%;
   }
