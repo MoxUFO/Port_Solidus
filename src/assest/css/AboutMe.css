@@ -2,23 +2,24 @@
   margin: 0 auto;
   border: 2px red solid;
   width: 80%;
-  height: 85vh;
+  /* height: 2000px; */
   display: flex;
   flex-direction: column;
   margin-bottom: 500px;
 }
 
-.about-title{
+.about-title {
   width: 100%;
   text-align: center;
-  font-family: 'Cormorant Infant', serif;
-    font-size: 150%;
-    margin-bottom: 100px;
-    color: #77835D;
-    text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
-    border-bottom: 3px #353D29 solid;
+  font-family: "Cormorant Infant", serif;
+  font-size: 150%;
+  margin-bottom: 100px;
+  color: #77835d;
+  text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
+    1px 1px 0 #353d29;
+  border-bottom: 3px #353d29 solid;
 }
-.bio-content{
+.bio-content {
   display: flex;
   flex-direction: row;
   height: 100%;
@@ -32,27 +33,47 @@
 }
 .skills {
   margin: 0 auto;
-  height: 100%;
+  /* height: 100%; */
   width: 65%;
   border-radius: 25px;
   background-color: #201d20;
   border: 1px green solid;
-}
-.skills-icons {
-
+  display: flex;
+  flex-direction: column;
+  
 }
 .skills-header {
-    margin: 0;
-    height: 10%;
+height: 5%;
+  }
+.skills-icons {
+  height: 95%;
+display: flex;
+flex-direction: column;
+}
+.icon-holder{
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  box-sizing: border-box;
+  margin: 0  auto;
+  width: 22%;
+  height: 70%;
+  padding: 0.6rem;
+  /* filter: brightness(0) invert(0.6); */
+}
+.skills-header {
+  margin: 0;
+  height: 10%;
   text-align: center;
   color: #77835d;
-
 }
 .skills-header h3 {
- margin: 0;
+  margin: 0;
 }
 .skills-icons {
- 
   border-radius: 25px;
   height: 100%;
   width: 100%;
@@ -75,7 +96,6 @@
   background-position: center;
 }
 .bio-text {
- 
   /* box-sizing: border-box; */
   margin: 10px auto;
   background-color: #201d20;
@@ -98,18 +118,14 @@
 }
 @media screen and (max-width: 480px) {
   .about-me-containter {
-    height:auto;
+    height: auto;
     width: 100%;
   }
-  .about-title{
- 
-      margin-bottom: 10px;
-
+  .about-title {
+    margin-bottom: 10px;
   }
-  .bio-content{
-
+  .bio-content {
     flex-direction: column-reverse;
-  
   }
   .bio {
     /* background-color: #201d20; */
@@ -117,18 +133,16 @@
     border-radius: 25px;
     height: 100%;
     width: 100%;
- 
+
     border: 1px blue solid;
   }
   .bio-text {
- 
     /* box-sizing: border-box; */
 
     /* border-radius: 0; */
- 
+
     font-size: 4.25vw;
     width: 100%;
- 
   }
   .skills {
     /* margin: 0 auto; */
@@ -141,18 +155,14 @@
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .about-me-containter {
-    height:auto;
+    height: auto;
     width: 100%;
   }
-  .about-title{
- 
-      margin-bottom: 10px;
-
+  .about-title {
+    margin-bottom: 10px;
   }
-  .bio-content{
-
+  .bio-content {
     flex-direction: column-reverse;
-  
   }
   .bio {
     /* background-color: #201d20; */
@@ -160,18 +170,15 @@
     border-radius: 25px;
     height: 100%;
     width: 100%;
- 
+
     border: 1px blue solid;
   }
   .bio-text {
- 
     /* box-sizing: border-box; */
 
     /* border-radius: 0; */
- 
- 
+
     width: 80%;
- 
   }
   .skills {
     /* margin: 0 auto; */
@@ -184,19 +191,17 @@
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .about-me-containter {
-    height:auto;
+    height: auto;
     width: 97%;
   }
-  .bio-content{
-
+  .bio-content {
     flex-direction: column-reverse;
-  
   }
   .bio {
     width: 100%;
     /* background-color: #201d20; */
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
   .bio-img-holder {
     margin: auto auto;
@@ -208,26 +213,22 @@ flex-direction: row;
     height: auto;
     width: 60%;
     padding: 4%;
-
   }
   .skills {
-
     width: 95%;
-
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .about-me-containter {
-    height:auto;
+    height: auto;
     width: 97%;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
   .about-me-containter {
-    height:auto;
+    height: auto;
     width: 90%;
   }
 }
 @media screen and (min-width: 1920px) {
-  
 }
