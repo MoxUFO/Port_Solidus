@@ -1,0 +1,70 @@
+.contect-me-container {
+  margin-top: 60px;
+  margin: 60px auto 0;
+  background-color: aqua;
+  width: 25%;
+  /* display: flex;
+    flex-direction: row; */
+}
+.calenderly {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #201d20;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  color: #77835d;
+  text-align: center;
+}
+.socials {
+  /* width: 40%; */
+  margin: 0 auto;
+  border-radius: 25px;
+  background-color: #201d20;
+  display: flex;
+  flex-direction: column;
+}
+.social-header {
+  text-align: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: #353d29;
+  color: #77835d;
+  font-size: 150%;
+}
+.social-text {
+  text-align: center;
+  color: #77835d;
+}
+.social-text h2 {
+  margin-top: 45px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.social-text h4 {
+  margin-top: 0;
+  /* margin-bottom: 45px; */
+  font-style: italic;
+  font-weight: normal;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px 0;
+  /* flex-direction: column; */
+
+  box-sizing: border-box;
+}
+.s-icon {
+  box-sizing: border-box;
+  /* margin: auto  auto; */
+  width: 45px;
+  height: 45px;
+  /* padding: 0.6rem; */
+}
+.social-icons img {
+  width: 100%;
+  height: 100%;
+}

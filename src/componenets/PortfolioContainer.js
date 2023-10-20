@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import AboutMe from "./AboutMe";
 import Intro from "./Intro";
+import Contact from "./Contact";
 
 import ProjectContainer from "./ProjectContainer";
 
@@ -13,6 +14,7 @@ export default function PortfolioContainer() {
       <Intro />
       <ProjectContainer />
       <AboutMe />
+      < Contact />
       <NavBar />
     </div>
   );
