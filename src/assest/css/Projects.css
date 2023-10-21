@@ -42,8 +42,13 @@
 .blog-slider__code {
     color: #77835D;
     margin-bottom: 15px;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-weight: 500;
+}
+.chip{
+    background-color: #353D29;
 }
 
 .blog-slider__title {

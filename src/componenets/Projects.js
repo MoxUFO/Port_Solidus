@@ -1,4 +1,5 @@
 import React from "react";
+import Chip from '@mui/material/Chip';
 import "../assest/css/Projects.css";
 
 export default function Projects({ projects }) {
@@ -14,7 +15,9 @@ export default function Projects({ projects }) {
             <div className="blog-slider__content">
               <div className="blog-slider__title">{project.title}</div>
               <span className="blog-slider__code">
-                Skills Used: {project.tools}
+               {project.tools.map((tool,index)=>(
+                  <Chip style={{backgroundColor:'#353D29',color: '#77835D'}} key={index} label={tool}  />
+                ))}
               </span>
               <div className="blog-slider__text">{project.description}</div>
               <div className="blog-slider__button-container" >
