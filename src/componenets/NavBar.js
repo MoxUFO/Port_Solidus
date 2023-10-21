@@ -17,7 +17,7 @@ export default function NavBar() {
       <BottomNavigation  sx={{ backgroundColor: "#201D20", height: '100%'  }} showLabels>
         <BottomNavigationAction href="#Projects" sx={styles} label="Projects" icon={<AccountTreeRoundedIcon sx={styles} fontSize="large" />} />
         <BottomNavigationAction href="#About-Me" sx={styles} label="About Me" icon={<PersonSearchRoundedIcon sx={styles} fontSize="large" />} />
-        <BottomNavigationAction sx={styles} label="Contact Me" icon={<ConnectWithoutContactRoundedIcon sx={styles} fontSize="large" />} />
+        <BottomNavigationAction href="#Contact" sx={styles} label="Contact Me" icon={<ConnectWithoutContactRoundedIcon sx={styles} fontSize="large" />} />
       </BottomNavigation>
     </Paper>
   );

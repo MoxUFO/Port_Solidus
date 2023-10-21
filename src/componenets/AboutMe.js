@@ -38,6 +38,10 @@ export default function AboutMe() {
               Dragons. For further information about my projects or to get to
               know me better, please do not hesitate to reach out.
             </p>
+
+            <a class="logo-link" href="#Contact">
+              Seeking additional project insights?
+            </a>
           </div>
         </div>
         <div className="skills">

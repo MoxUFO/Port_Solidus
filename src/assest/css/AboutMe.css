@@ -27,7 +27,7 @@
 .bio {
   /* background-color: #201d20; */
   border-radius: 25px;
-  height: 100%;
+  height: auto;
   width: 30%;
   /* border: 1px blue solid; */
 }
@@ -96,18 +96,46 @@ flex-direction: column;
   background-position: center;
 }
 .bio-text {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
+  height: auto;
   margin: 10px auto;
   background-color: #201d20;
   border-radius: 25px;
   max-width: fit-content;
   text-align: justify;
-  padding: 7%;
+  padding: 3% 5%;
   color: #77835d;
   width: 80%;
   /* height: 75%; */
   /* border: 1px pink solid; */
 }
+.bio-text p {
+  margin-top: 0;
+margin-bottom: 25px;
+}
+.logo-link {
+  margin-bottom: 25px;
+  text-decoration: none; /* Remove the underline from the link */
+  font-weight: bold;
+  color: #77835d; /* Set the text color */
+  position: relative; /* Make the link a positioning context */
+}
+.logo-link:hover {
+color: #353d29;
+}
+.logo-link::after {
+  content: ""; /* Required content property */
+  display: inline-block; /* Make the pseudo-element inline */
+  width: 20px; /* Set the width of the logo */
+  height: 20px; /* Set the height of the logo */
+  background: url('../images/email.svg') no-repeat center center; /* Add your logo image */
+  background-size: contain; /* Adjust the logo size */
+  margin-left: 5px; /* Add some spacing between the text and the logo */
+}
+.logo-link:hover::after {
+  color: #77835d; /* Set the text color */
+}
+
 
 .bio-edu {
   text-align: center;
