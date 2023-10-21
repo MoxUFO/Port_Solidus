@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Port_Solidus/static/css/main.8600c399.css",
+    "main.css": "/Port_Solidus/static/css/main.b4e7e4e4.css",
     "main.js": "/Port_Solidus/static/js/main.62f73516.js",
     "static/js/787.55610a69.chunk.js": "/Port_Solidus/static/js/787.55610a69.chunk.js",
     "static/media/BootCamp-Connect.png": "/Port_Solidus/static/media/BootCamp-Connect.d8ae9ca6d3954a3d69bd.png",
@@ -25,12 +25,12 @@
     "static/media/linkedin.svg": "/Port_Solidus/static/media/linkedin.a05a7c44218fdda742138a8d830e8ca5.svg",
     "static/media/material-ui-1.svg": "/Port_Solidus/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/email.svg": "/Port_Solidus/static/media/email.8718b1194a9f6378ebace1e0e0ce5f18.svg",
-    "main.8600c399.css.map": "/Port_Solidus/static/css/main.8600c399.css.map",
+    "main.b4e7e4e4.css.map": "/Port_Solidus/static/css/main.b4e7e4e4.css.map",
     "main.62f73516.js.map": "/Port_Solidus/static/js/main.62f73516.js.map",
     "787.55610a69.chunk.js.map": "/Port_Solidus/static/js/787.55610a69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8600c399.css",
+    "static/css/main.b4e7e4e4.css",
     "static/js/main.62f73516.js"
   ]
 }
