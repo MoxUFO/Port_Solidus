@@ -9,15 +9,14 @@
 }
 
 .about-title {
-  width: 100%;
-  text-align: center;
-  font-family: "Cormorant Infant", serif;
-  font-size: 150%;
-  margin-bottom: 100px;
-  color: #77835d;
-  text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
-    1px 1px 0 #353d29;
-  border-bottom: 3px #353d29 solid;
+  margin: 0 auto;
+  width: fit-content;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 350%;
+  margin-bottom: 75px;
+  color: #77835D;
+  text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
+  border-bottom: 3px #353D29 solid;
 }
 .bio-content {
   display: flex;
@@ -30,6 +29,16 @@
   height: auto;
   width: 30%;
   /* border: 1px blue solid; */
+}
+.bio-header {
+  height: 5%;
+  background-color: #353d29;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin: 0;
+  height: 10%;
+  text-align: center;
+  color: #77835d;
 }
 .skills {
   margin: 0 auto;
@@ -44,6 +53,13 @@
 }
 .skills-header {
 height: 5%;
+background-color: #353d29;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+margin: 0;
+height: 10%;
+text-align: center;
+color: #77835d;
   }
 .skills-icons {
   height: 95%;
@@ -64,12 +80,7 @@ flex-direction: column;
   padding: 0.6rem;
   /* filter: brightness(0) invert(0.6); */
 }
-.skills-header {
-  margin: 0;
-  height: 10%;
-  text-align: center;
-  color: #77835d;
-}
+
 .skills-header h3 {
   margin: 0;
 }
@@ -95,26 +106,30 @@ flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .bio-text {
   box-sizing: border-box;
-  height: auto;
-  margin: 10px auto;
-  background-color: #201d20;
+
+  margin: 14px auto 0;
+  /* height: 65%; */
+  width: 65%;
   border-radius: 25px;
-  max-width: fit-content;
-  text-align: justify;
-  padding: 3% 5%;
-  color: #77835d;
-  width: 80%;
-  /* height: 75%; */
-  /* border: 1px pink solid; */
+  background-color: #201d20;
+  /* border: 1px green solid; */
+  display: flex;
+  flex-direction: column;
 }
 .bio-text p {
+  color: #77835d;
+  text-align: justify;
   margin-top: 0;
-margin-bottom: 25px;
+margin-bottom: 15px;
+padding: 3% 5%;
 }
 .logo-link {
-  margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 3% 5%;
   text-decoration: none; /* Remove the underline from the link */
   font-weight: bold;
   color: #77835d; /* Set the text color */
@@ -123,18 +138,7 @@ margin-bottom: 25px;
 .logo-link:hover {
 color: #353d29;
 }
-.logo-link::after {
-  content: ""; /* Required content property */
-  display: inline-block; /* Make the pseudo-element inline */
-  width: 20px; /* Set the width of the logo */
-  height: 20px; /* Set the height of the logo */
-  background: url('../images/email.svg') no-repeat center center; /* Add your logo image */
-  background-size: contain; /* Adjust the logo size */
-  margin-left: 5px; /* Add some spacing between the text and the logo */
-}
-.logo-link:hover::after {
-  color: #77835d; /* Set the text color */
-}
+
 
 
 .bio-edu {

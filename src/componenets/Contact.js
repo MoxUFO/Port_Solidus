@@ -9,9 +9,9 @@ import Email from '../assest/images/email.svg'
 export default function Contact() {
   return (
     <div className="contect-me-container">
-      <div id="Contact" className="contact-title">
-        <h1>CONTACT ME</h1>
-      </div>
+      
+        <h1 id="Contact" className="contact-title">CONTACT ME</h1>
+    
       <div className="socials">
         <div className="social-header">
           <h3>You Can also find me here!</h3>

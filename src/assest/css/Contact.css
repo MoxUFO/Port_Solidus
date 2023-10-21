@@ -7,15 +7,14 @@
     flex-direction: row; */
 }
 .contact-title {
-  width: 100%;
-  text-align: center;
-  font-family: "Cormorant Infant", serif;
-  font-size: 150%;
+  margin: 0 auto;
+  width: fit-content;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 350%;
   margin-bottom: 100px;
-  color: #77835d;
-  text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
-    1px 1px 0 #353d29;
-  border-bottom: 3px #353d29 solid;
+  color: #77835D;
+  text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
+  border-bottom: 3px #353D29 solid;
 }
 .calenderly {
   margin-top: 25px;
