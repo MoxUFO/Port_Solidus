@@ -10,8 +10,17 @@ export default function IntroButtons() {
       fontSize: "16px",
       fontWeight: "bold",
       border: "2px solid  #353D29",
+      margin: "10px 75px"
     },
   };
+  // const mediaQueries = {
+  //   '@media (max-width: 768px)': {
+  //     "&.MuiButton-contained": {
+  //       fontSize: "2.5vw",  // Modify the styles for smaller screens
+  //       margin: "5px 20px",  // Modify the styles for smaller screens
+  //     },
+  //   },
+  // };
 
   return (
     <div className="btn-div">

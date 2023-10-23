@@ -1,14 +1,42 @@
 .btn-div{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    justify-content: center;
+    /* margin-top: 50px; */
 }
 .intro-btn{
-   padding: 1%;
+    
+}
 
-   color: #201d20;
-   background-color: #201d20;
-   border: 3px solid  #353D29;
-   /* text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29; */
+
+@media screen and (max-width: 480px) {
+    .btn-div{
+        flex-direction: column;
+        /* width: 40%; */
+        align-items: center;
+        /* margin: 5px; */
+    
+        }
+        .intro-btn{
+            letter-spacing: 0 !important;
+            font-size: 3.80vw !important;
+        }
+       
+}
+@media screen and (min-width: 481px) and (max-width: 991px) {
+    .btn-div{
+    flex-direction: column;
+    /* width: 40%; */
+    align-items: center;
+    /* margin: 5px; */
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  
+}
+@media screen and (min-width: 1920px) {
+  
 }
