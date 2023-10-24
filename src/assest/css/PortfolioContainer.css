@@ -4,7 +4,37 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
-    height: 3950px;
+    height: 4050px;
     background-image: url('../images/artbreeder-pattern.jpg'); /* Set your background image */
  
+}
+@media screen and (max-width: 480px) {
+    .port-container{
+        height: 5250px;
+
+     
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .port-container{
+        height: 5600px;
+
+     
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .port-container{
+        height: 4250px;
+
+     
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  
+}
+@media screen and (min-width: 1200px) and (max-width: 1919px) {
+  
+}
+@media screen and (min-width: 1920px) {
+  
 }
