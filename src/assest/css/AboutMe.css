@@ -52,14 +52,18 @@
   
 }
 .skills-header {
-height: 5%;
+
 background-color: #353d29;
 border-top-right-radius: 25px;
 border-top-left-radius: 25px;
 margin: 0;
-height: 10%;
+
 text-align: center;
 color: #77835d;
+  }
+  .skills-header h2 {
+    padding: 10px;
+
   }
 .skills-icons {
   height: 95%;

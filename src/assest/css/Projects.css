@@ -44,7 +44,7 @@
     margin-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     font-weight: 500;
 }
 .chip{
@@ -62,15 +62,16 @@
     color: #77835D;
     margin-bottom: 30px;
     line-height: 1.5em;
+    text-align: justify;
 }
 .blog-slider__button-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .blog-slider__button {
     /* display: inline-flex; */
-    /* margin: 0 15px; */
+    margin: 0 15px;
     padding: 15px 15px;
     border-radius: 50px;
     color: #77835D;

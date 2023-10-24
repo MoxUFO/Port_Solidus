@@ -16,7 +16,7 @@ export default function Projects({ projects }) {
               <div className="blog-slider__title">{project.title}</div>
               <span className="blog-slider__code">
                {project.tools.map((tool,index)=>(
-                  <Chip style={{backgroundColor:'#353D29',color: '#77835D'}} key={index} label={tool}  />
+                  <Chip style={{backgroundColor:'#353D29',color: '#77835D', margin: "5px 5px"}} key={index} label={tool}  />
                 ))}
               </span>
               <div className="blog-slider__text">{project.description}</div>

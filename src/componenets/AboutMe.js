@@ -51,7 +51,7 @@ export default function AboutMe() {
         </div>
         <div className="skills">
           <div className="skills-header">
-            <h3>SKILLS</h3>
+            <h2>SKILLS</h2>
           </div>
           <div className="skills-icons">
             <div className="icon-holder">
