@@ -1,12 +1,7 @@
 import React from "react";
 import { PopupButton } from "react-calendly";
 import "../assest/css/Contact.css";
-import Git from "../assest/images/github (1).svg";
-import Linked from "../assest/images/linkedin.svg";
-import Twit from "../assest/images/Twit.svg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquareTwitter } from '@fortawesome/free-solid-svg-icons'
-import Email from "../assest/images/email.svg";
+
 
 export default function Contact() {
 

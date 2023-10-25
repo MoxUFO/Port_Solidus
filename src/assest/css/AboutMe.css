@@ -1,3 +1,13 @@
+@keyframes flip {
+  0% {
+    transform: perspective(400px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(400px) rotateY(360deg);
+  }
+}
+
+
 .about-me-containter {
   margin: 0 auto;
   /* border: 2px red solid; */
@@ -7,16 +17,20 @@
   flex-direction: column;
   /* margin-bottom: 500px; */
 }
+.red {
+  fill: #77835d;
+}
 
 .about-title {
   margin: 0 auto;
   width: fit-content;
-  font-family: 'Cormorant Infant', serif;
+  font-family: "Cormorant Infant", serif;
   font-size: 350%;
   margin-bottom: 75px;
-  color: #77835D;
-  text-shadow: -1px -1px 0 #353D29, 1px -1px 0 #353D29, -1px 1px 0 #353D29, 1px 1px 0 #353D29;
-  border-bottom: 3px #353D29 solid;
+  color: #77835d;
+  text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
+    1px 1px 0 #353d29;
+  border-bottom: 3px #353d29 solid;
 }
 .bio-content {
   display: flex;
@@ -45,54 +59,55 @@
 
   width: 65%;
   border-radius: 25px;
-  background-color: #201d20;
+  /* background-color: #201d20; */
   /* border: 1px green solid; */
   display: flex;
   flex-direction: column;
-  
 }
 .skills-header {
+  background-color: #353d29;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin: 0;
 
-background-color: #353d29;
-border-top-right-radius: 25px;
-border-top-left-radius: 25px;
-margin: 0;
-
-text-align: center;
-color: #77835d;
-  }
-  .skills-header h2 {
-    padding: 10px;
-
-  }
+  text-align: center;
+  color: #77835d;
+}
+.skills-header h2 {
+  padding: 10px;
+}
 .skills-icons {
-  /* height: 95%; */
-display: flex;
-flex-direction: column;
+    background-color: #201d20;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 100%;
 }
 .icon-holder{
-  width: 100%;
-  height: 33%;
+  height: 32.25%;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .icon{
+  margin: 10px;
   box-sizing: border-box;
-  margin: 0  auto;
-  width: 22%;
-  height: 60%;
-  padding: 0.6rem;
-  /* filter: brightness(0) invert(0.6); */
+  width: 23%;
+  height: 85%;
+}
+.svg{
+  width: 100%;
+  /* height: 100%; */
+}
+.svg:hover{
+  width: 100%;
+ 
+  animation: flip 3s linear infinite;
+  /* height: 100%; */
 }
 
-.skills-header h3 {
-  margin: 0;
-}
-.skills-icons {
-  border-radius: 25px;
-  height: 100%;
-  width: 100%;
-}
 .bio-img-holder {
   margin: 0 auto;
   width: 200px;
@@ -127,8 +142,8 @@ flex-direction: column;
   color: #77835d;
   /* text-align: justify; */
   margin-top: 0;
-margin-bottom: 15px;
-padding: 3% 5%;
+  margin-bottom: 15px;
+  padding: 3% 5%;
 }
 .logo-link {
   width: 100%;
@@ -141,11 +156,8 @@ padding: 3% 5%;
   position: relative; /* Make the link a positioning context */
 }
 .logo-link:hover {
-color: #353d29;
+  color: #353d29;
 }
-
-
-
 
 @media screen and (max-width: 480px) {
   .about-me-containter {
