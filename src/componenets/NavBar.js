@@ -5,19 +5,18 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import AccountTreeRoundedIcon from '@mui/icons-material/AccountTreeRounded';
 import PersonSearchRoundedIcon from '@mui/icons-material/PersonSearchRounded';
 import ConnectWithoutContactRoundedIcon from '@mui/icons-material/ConnectWithoutContactRounded';
+import '../assest/css/NavBar.css'
 
 export default function NavBar() {
     
-    let styles = {
-        color:"#77835D",
-    }
+ 
 
   return (
     <Paper elevation={3}  sx={{height: '12%' ,width: '100%', position: 'fixed', bottom: 0, left: 0, right: 0 }} color="primary" >
       <BottomNavigation  sx={{ backgroundColor: "#201D20", height: '100%'  }} showLabels>
-        <BottomNavigationAction href="#Projects" sx={styles} label="Projects" icon={<AccountTreeRoundedIcon sx={styles} fontSize="large" />} />
-        <BottomNavigationAction href="#About-Me" sx={styles} label="About Me" icon={<PersonSearchRoundedIcon sx={styles} fontSize="large" />} />
-        <BottomNavigationAction href="#Contact" sx={styles} label="Contact Me" icon={<ConnectWithoutContactRoundedIcon sx={styles} fontSize="large" />} />
+        <BottomNavigationAction href="#Projects" className="nav-link" label="Projects" icon={<AccountTreeRoundedIcon sx={styles} fontSize="large" />} />
+        <BottomNavigationAction href="#About-Me" className="nav-link" label="About Me" icon={<PersonSearchRoundedIcon sx={styles} fontSize="large" />} />
+        <BottomNavigationAction href="#Contact" className="nav-link" label="Contact Me" icon={<ConnectWithoutContactRoundedIcon sx={styles} fontSize="large" />} />
       </BottomNavigation>
     </Paper>
   );
