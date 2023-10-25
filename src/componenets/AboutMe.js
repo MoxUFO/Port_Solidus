@@ -1,17 +1,6 @@
 import React from "react";
 import "../assest/css/AboutMe.css";
-import node from "../assest/images/node.svg";
-import MUI from "../assest/images/material-ui-1.svg";
-import Ract from "../assest/images/react.svg";
-import Mongo from "../assest/images/mongodb.svg";
-import Mysql from "../assest/images/mysql.svg";
-import Jquery from "../assest/images/jquery.svg";
-import JS from "../assest/images/javascript.svg";
-import Html from "../assest/images/html.svg";
-import HBs from "../assest/images/handlebars.svg";
-import Git from "../assest/images/github.svg";
-import Exp from "../assest/images/express.svg";
-import CSS from "../assest/images/css.svg";
+
 
 export default function AboutMe() {
   return (
