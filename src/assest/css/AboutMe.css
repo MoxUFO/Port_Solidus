@@ -137,6 +137,15 @@
   margin-top: 0;
   margin-bottom: 15px;
   padding: 3% 5%;
+  background-color: #201d20;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.bio-p {
+
+  background-color: #201d20;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .logo-link {
@@ -179,6 +188,12 @@
     font-size: 4.25vw;
     width: 100%;
   }
+  .bio-p {
+
+    background-color: #201d20;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
 
   .skills {
     height: auto;
@@ -211,6 +226,12 @@
 
   .bio-text {
     width: 80%;
+  }
+  .bio-p {
+
+    background-color: #201d20;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
 
   .skills {
