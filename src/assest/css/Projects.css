@@ -82,6 +82,13 @@
     /* text-align: center; */
     letter-spacing: 1px;
 }
+.blog-slider__button:hover {
+    /* display: inline-flex; */
+   
+    color:#353D29 ;
+    background-color:#77835D ;
+    
+}
 
 /* Media Queries */
 @media screen and (max-width: 480px) {
