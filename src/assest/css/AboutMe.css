@@ -7,16 +7,13 @@
   }
 }
 
-
-.about-me-containter {
+.about-me-container {
   margin: 0 auto;
-  /* border: 2px red solid; */
   width: 80%;
-  /* height: 2000px; */
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 500px; */
 }
+
 .red {
   fill: #77835d;
 }
@@ -25,59 +22,57 @@
   margin: 0 auto;
   width: fit-content;
   font-family: "Cormorant Infant", serif;
-  font-size: 350%;
+  font-size: 3.5rem;
   margin-bottom: 75px;
   color: #77835d;
   text-shadow: -1px -1px 0 #353d29, 1px -1px 0 #353d29, -1px 1px 0 #353d29,
     1px 1px 0 #353d29;
-  border-bottom: 3px #353d29 solid;
+  border-bottom: 3px solid #353d29;
 }
+
 .bio-content {
   display: flex;
   flex-direction: row;
-  /* height: 100%; */
 }
+
 .bio {
-  /* background-color: #201d20; */
   border-radius: 25px;
-  /* height: auto; */
-  width: 30%;
-  /* border: 1px blue solid; */
+  width: 45%;
 }
+
 .bio-header {
-  /* height: 5%; */
   background-color: #353d29;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   margin: 0;
-  /* height: 10%; */
   text-align: center;
   color: #77835d;
 }
-.skills {
-  margin: 0 auto;
 
-  width: 65%;
+.skills {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 50%;
   border-radius: 25px;
-  /* background-color: #201d20; */
-  /* border: 1px green solid; */
   display: flex;
   flex-direction: column;
 }
+
 .skills-header {
   background-color: #353d29;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   margin: 0;
-
   text-align: center;
   color: #77835d;
 }
+
 .skills-header h2 {
   padding: 10px;
 }
+
 .skills-icons {
-    background-color: #201d20;
+  background-color: #201d20;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -85,35 +80,36 @@
   border-bottom-right-radius: 25px;
   width: 100%;
 }
-.icon-holder{
+
+.icon-holder {
   height: 32.25%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.icon{
+
+.icon {
   margin: 10px;
   box-sizing: border-box;
   width: 23%;
   height: 85%;
 }
-.svg{
+
+.svg {
   width: 100%;
-  /* height: 100%; */
 }
-.svg:hover{
+
+.svg:hover {
   width: 100%;
- 
   animation: flip 3s linear infinite;
-  /* height: 100%; */
 }
 
 .bio-img-holder {
   margin: 0 auto;
   width: 200px;
   height: 200px;
-  /* border: 1px yellow solid; */
 }
+
 .bio-img {
   box-sizing: border-box;
   border-radius: 50%;
@@ -128,150 +124,176 @@
 
 .bio-text {
   box-sizing: border-box;
-
   margin: 14px auto 0;
-  /* height: 65%; */
   width: 65%;
   border-radius: 25px;
-  background-color: #201d20;
-  /* border: 1px green solid; */
+  /* background-color: #201d20; */
   display: flex;
   flex-direction: column;
 }
+
 .bio-p {
   color: #77835d;
-  /* text-align: justify; */
   margin-top: 0;
   margin-bottom: 15px;
   padding: 3% 5%;
 }
+
 .logo-link {
   width: 100%;
   margin-top: 0;
   margin-bottom: 10px;
-
-  text-decoration: none; /* Remove the underline from the link */
+  text-decoration: none;
   font-weight: bold;
-  color: #77835d; /* Set the text color */
-  position: relative; /* Make the link a positioning context */
+  color: #77835d;
+  position: relative;
 }
+
 .logo-link:hover {
   color: #353d29;
 }
 
+/* Media Queries */
 @media screen and (max-width: 480px) {
-  .about-me-containter {
+  .about-me-container {
     height: auto;
     width: 100%;
   }
+
   .about-title {
     margin-bottom: 10px;
   }
+
   .bio-content {
     flex-direction: column-reverse;
   }
+
   .bio {
-    /* background-color: #201d20; */
     margin-top: 3%;
     border-radius: 25px;
     height: 100%;
     width: 100%;
-
-    /* border: 1px blue solid; */
   }
+
   .bio-text {
-    /* box-sizing: border-box; */
-
-    /* border-radius: 0; */
-
     font-size: 4.25vw;
     width: 100%;
   }
+
   .skills {
-    /* margin: 0 auto; */
     height: auto;
     width: 100%;
     border-radius: 25px;
     background-color: #201d20;
-    /* border: 1px green solid; */
   }
 }
+
 @media screen and (min-width: 481px) and (max-width: 767px) {
-  .about-me-containter {
+  .about-me-container {
     height: auto;
     width: 100%;
   }
+
   .about-title {
     margin-bottom: 10px;
   }
+
   .bio-content {
     flex-direction: column-reverse;
   }
+
   .bio {
-    /* background-color: #201d20; */
     margin-top: 3%;
     border-radius: 25px;
     height: 100%;
     width: 100%;
-
-    /* border: 1px blue solid; */
   }
+
   .bio-text {
-    /* box-sizing: border-box; */
-
-    /* border-radius: 0; */
-
     width: 80%;
   }
+
   .skills {
-    /* margin: 0 auto; */
     height: auto;
     width: 100%;
     border-radius: 25px;
     background-color: #201d20;
-    /* border: 1px green solid; */
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .about-me-containter {
+  .about-me-container {
     height: auto;
     width: 97%;
   }
+
   .bio-content {
     flex-direction: column-reverse;
   }
+
   .bio {
     width: 100%;
-    /* background-color: #201d20; */
     display: flex;
     flex-direction: row;
   }
+
   .bio-img-holder {
     margin: auto auto;
     width: 200px;
     height: 200px;
-    /* border: 1px yellow solid; */
   }
+
   .bio-text {
     height: auto;
     width: 60%;
     padding: 4%;
+    /* background-color: #201d20; */
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
   }
+  .bio-p {
+
+    background-color: #201d20;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
   .skills {
     width: 95%;
   }
 }
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .about-me-containter {
+  .about-me-container {
     height: auto;
     width: 97%;
   }
+  .bio-p {
+
+    background-color: #201d20;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
 }
+
 @media screen and (min-width: 1200px) and (max-width: 1919px) {
-  .about-me-containter {
+  .about-me-container {
     height: auto;
     width: 90%;
   }
+  .bio-p {
+
+    background-color: #201d20;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
 }
+
 @media screen and (min-width: 1920px) {
+  .bio-p {
+
+    background-color: #201d20;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
 }
